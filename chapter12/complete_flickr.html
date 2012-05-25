@@ -18,7 +18,7 @@
 
 
 </style>
-<script src="../_js/jquery-1.6.3.min.js"></script>
+<script src="../_js/jquery-1.7.1.min.js"></script>
 <script>
 $(document).ready(function() {
 
@@ -33,7 +33,7 @@ $.getJSON(ajaxURL,function(data) {
 	$.each(data.items,function(i,photo) {
 		var photoHTML = '<span class="image">';
 		photoHTML += '<a href="' + photo.link + '">';
-		photoHTML += '<img src="' + photo.media.m.replace('_m','_s') + '"></a>';
+		photoHTML += '<img src="' + photo.media.m.replace('_m','_s') + '"></a></span>';
 		$('#photos').append(photoHTML);	
 	}); // end each
 }); // end get JSON
