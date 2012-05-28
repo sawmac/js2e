@@ -5,10 +5,10 @@ The files here are for the book, JavaScript & jQuery: The Missing Manual, by Dav
 * 5/28/2012: The tutorial "Opening a Page Within a Page" on page 248 doesn't work as is. Since the publication of this book, some sites have started preventing their pages from appearing within iFrames. Google and Yahoo!, for example, are afraid of security problems related to putting their pages inside iFrames. A web server can send out what's called an X-Frame-Options HTTP response header which prevents the page from being displayed inside an iFrame. It's explained here:
 https://developer.mozilla.org/en/The_X-FRAME-OPTIONS_response_header. In other words the original tutorial, which included both Google and Yahoo! links won't work. Many sites *don't* prevent their pages from appearing inside an iFrame, so you can still use this technique; just make sure to test it with the sites you link to. The tutorial instructions should be changed to:
 
-*1. (Step 1 is the same)
+1. (Step 1 is the same)
 
-*2. Locate the first link, and add *class="iframe"* so the code looks like this: <a href="http://smashingmagazine.com/" class="iframe">Smashing Magazine</a>
+2. Locate the first link, and add *class="iframe"* so the code looks like this: <a href="http://smashingmagazine.com/" class="iframe">Smashing Magazine</a>
 
-*3. Add *title="Smashing Magazine"* to the link you edited in the last step so it looks like this: <a href="http://smashingmagazine.com/" class="iframe" title="Smashing Magazine">Smashing Magazine</a>
+3. Add *title="Smashing Magazine"* to the link you edited in the last step so it looks like this: <a href="http://smashingmagazine.com/" class="iframe" title="Smashing Magazine">Smashing Magazine</a>
 
-*4. (The rest of the steps are the same.)
+4. (The rest of the steps are the same.)
