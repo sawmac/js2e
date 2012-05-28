@@ -7,8 +7,8 @@ https://developer.mozilla.org/en/The_X-FRAME-OPTIONS_response_header. In other w
 
 >1. (Step 1 is the same)
 
->2. Locate the first link, and add *class="iframe"* so the code looks like this: &lt;a href="http://smashingmagazine.com/" class="iframe">Smashing Magazine</a>
+>2. Locate the first link, and add *class="iframe"* so the code looks like this: &lt;a href="http://smashingmagazine.com/" class="iframe">Smashing Magazine&lt;/a>
 
->3. Add *title="Smashing Magazine"* to the link you edited in the last step so it looks like this: &lt;a href="http://smashingmagazine.com/" class="iframe" title="Smashing Magazine">Smashing Magazine</a>
+>3. Add *title="Smashing Magazine"* to the link you edited in the last step so it looks like this: &lt;a href="http://smashingmagazine.com/" class="iframe" title="Smashing Magazine">Smashing Magazine&lt;/a>
 
 >4. (The rest of the steps are the same.)
